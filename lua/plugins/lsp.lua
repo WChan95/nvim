@@ -3,9 +3,9 @@ local M = {
     "neovim/nvim-lspconfig",
     dependencies = {
       { "kevinhwang91/nvim-ufo" },
-      {
-        "SmiteshP/nvim-navic",
-      },
+      -- {
+      --   "SmiteshP/nvim-navic",
+      -- },
       {
         "folke/neodev.nvim",
       },

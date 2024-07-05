@@ -16,7 +16,7 @@ else
   opt.laststatus = 2
 end
 
-vim.opt.winbar = "%{%v:lua.require'utils.winbar'.get_winbar()%}"
+-- vim.opt.winbar = "%{%v:lua.require'utils.winbar'.get_winbar()%}"
 
 
 vim.g.deprecation_warnings = false

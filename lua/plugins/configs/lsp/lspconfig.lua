@@ -2,7 +2,7 @@ local utils = require("utils.functions")
 local nvim_lsp = require("lspconfig")
 local settings = require("core.settings")
 local lsp_settings = require("plugins.configs.lsp.settings")
-local navic = require("nvim-navic")
+-- local navic = require("nvim-navic")
 
 local M = {}
 
@@ -10,9 +10,9 @@ local M = {}
 
 M.on_attach = function(client, bufnr)
   utils.load_mappings("lspconfig", { buffer = bufnr })
-  if client.server_capabilities.documentSymbolProvider then
-    navic.attach(client, bufnr)
-  end
+  -- if client.server_capabilities.documentSymbolProvider then
+  --   navic.attach(client, bufnr)
+  -- end
 end
 -------------------- on_attach logic ----------------------
 
